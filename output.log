@@ -1,0 +1,59 @@
+Delivery service delivering bike[id: cef64983-6e89-4793-9a28-c03c64f50c05] 
+from uk.ac.ed.bikerental.Location@7d68ef40 to uk.ac.ed.bikerental.Location@5b0abc94
+Successfully scheduled
+
+ Delivery service delivering bike[id: 64e7b145-9b4e-4e2b-8b17-a6ca9562393a] 
+from uk.ac.ed.bikerental.Location@7d68ef40 to uk.ac.ed.bikerental.Location@5b0abc94
+Successfully scheduled
+
+ Your Bike(ID: 8c6a04b3-2f05-405d-a639-e7d0937e5cc7) is returned successfully
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+╷
+├─ JUnit Jupiter ✔
+│  ├─ DoubleDecliningDepreciationCalculatorTest ✔
+│  │  └─ testCalculateValue() ✔
+│  ├─ PricingPolicyTests ✔
+│  │  ├─ TestcalculatePrice() ✔
+│  │  ├─ TestMockMultiDayPricingPolicy() ✔
+│  │  └─ TestSetDailyRentalPrice() ✔
+│  ├─ TestDateRange ✔
+│  │  ├─ testOverlapsFalse() ✔
+│  │  ├─ testToYears1() ✔
+│  │  ├─ testToYears3() ✔
+│  │  └─ testOverlapsTrue() ✔
+│  ├─ TestLocation ✔
+│  │  └─ testIsNearTo() ✔
+│  ├─ ValuationPolicyTests ✔
+│  │  ├─ TestProviderCalculateDepostUseDoubleDeclining() ✔
+│  │  ├─ TestProviderCalculateDepositUseDefaultValuationPolicy() ✔
+│  │  ├─ TestDepositInQuoteUseLinearDepreciation() ✔
+│  │  ├─ TestCalculateValueDDDC() ✔
+│  │  ├─ TestProviderCalculateDepostUseLinearDepreciation() ✔
+│  │  ├─ TestCalculateValueLDC() ✔
+│  │  └─ TestDepositInQuoteUseDoubleDecliningDepreciation() ✔
+│  ├─ LinearDepreciationCalculatorTest ✔
+│  │  └─ testCalculateValue() ✔
+│  └─ SystemTests ✔
+│     ├─ TestBookedQuoteSuccessful() ✔
+│     ├─ TestGetQuoteSuccessful1() ✔
+│     ├─ TestGetQuoteSuccessful2() ✔
+│     ├─ TestBikeReturnToPartner() ✔
+│     ├─ TestGetQuoteFailDueToTimeClash() ✔
+│     └─ TestBikeReturnToOriginalProvider() ✔
+└─ JUnit Vintage ✔
+
+Test run finished after 256 ms
+[         9 containers found      ]
+[         0 containers skipped    ]
+[         9 containers started    ]
+[         0 containers aborted    ]
+[         9 containers successful ]
+[         0 containers failed     ]
+[        23 tests found           ]
+[         0 tests skipped         ]
+[        23 tests started         ]
+[         0 tests aborted         ]
+[        23 tests successful      ]
+[         0 tests failed          ]
+
